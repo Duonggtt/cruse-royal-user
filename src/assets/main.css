@@ -1,0 +1,99 @@
+/*@import './base.css';*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+
+
+/*body {*/
+/*    font-family: 'Archivo', sans-serif !important;*/
+/*    font-size: 1rem;*/
+/*    line-height: 1.5;*/
+/*    color: #333;*/
+/*    !*cursor: url('./cusor.svg'),auto;*!*/
+/*}*/
+
+/*.p-button {*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.p-input-filled {*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.p-menubar {*/
+/*    border-radius: 0;*/
+/*}*/
+
+/*.p-float-label label {*/
+/*    margin-top: -0.5em;*/
+/*}*/
+
+/*.no-underline, a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.p-fileupload .p-button {*/
+/*    height: 2.5rem;*/
+/*}*/
+
+/*.p-menubar-end {*/
+/*    display: flex;*/
+/*    margin: auto 0 auto auto;*/
+/*}*/
+
+/*.p-input-filled {*/
+/*    width: 30rem;*/
+/*}*/
+
+/*.rounded-4xl {*/
+/*    border-radius: 2.5rem;*/
+/*}*/
+
+/*.p-card-content {*/
+/*    padding: 1rem 0 0 0;*/
+/*}*/
+
+/*.p-card-body {*/
+/*    padding: 1rem 1rem 0 1rem;*/
+/*}*/
+
+/*.p-input-icon {*/
+/*    margin-top: -0.4rem;*/
+/*    margin-right: 0.6rem;*/
+/*}*/
+/*.p-tag-value {*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.p-inputnumber-input, .p-inputnumber-input:focus {*/
+/*    border: none;*/
+/*    width: 3rem;*/
+/*    box-shadow: none;*/
+/*}*/
+
+/*.p-inputnumber-button {*/
+/*    border: none;*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*    width: 1.5rem;*/
+/*}*/
+/*.p-message-wrapper{*/
+/*    gap: 0.8rem;*/
+/*}*/
+
+/*.p-message-icon{*/
+/*    margin-top: -5.5rem;*/
+/*}*/
